@@ -21,20 +21,16 @@ def using_concat(array1, array2)
 end 
 def using_insert(array, item)
    array.insert(4, item)
- end
-
- def using_uniq(array)
+end
+def using_uniq(array)
    array.uniq 
- end
-
- def using_flatten(array)
+end
+def using_flatten(array)
    array.flatten 
- end
-
- def using_delete(array, string)
+end
+def using_delete(array, string)
    array.delete(string)
- end
-
- def using_delete_at(array, num)
+end
+def using_delete_at(array, num)
    array.delete_at(num)
- end 
+end 
